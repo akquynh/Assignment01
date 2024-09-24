@@ -80,6 +80,63 @@ console.log(typeof null);
 let someVariable;
 console.log(typeof someVariable);
 
+// Create alert
+alert("Hello" + " Avery Q" + ", welcome to the JavaScript class!");
 
 
+// Create name variable for previous alert
+let name = "Avery Q";
+alert("Hello" + " " + name + ", welcome to the JavaScript class!");
 
+// Create course variable for previous alert
+let course = "JavaScript";
+alert("Hello" + " " + name + ", welcome to the " + course + " class!");
+
+// Add in line break to previous alert
+alert("Hello " + name + ".\nWelcome to the " + course + " class!");
+
+// Create prompt for name
+let enterName = prompt("Please enter your name:"); 
+alert("Hello " + enterName + ".\nWelcome to the " + course + " class!");
+
+// Create prompt for name
+let enterCourse = prompt("Please enter the course you are taking:")
+alert("Hello " + enterName + ".\nWelcome to the " + enterCourse + "class!")
+
+// Create a sum 
+let x = 10; 
+let y = 20; 
+console.log(x + y);
+
+// Add 20 and assign to variable
+let x = 20; 
+x += 20;    
+console.log(x); 
+
+// Multiply 5 and assign to variable
+let x = 20; 
+x *= 5;     
+console.log(x); 
+
+// Divide and assign to variable
+let x = 20 % 3; 
+x /= 1;         
+console.log(x); 
+
+// Create a true logical application
+let a = 10;   
+let b = 20;   
+let c = 15;  
+
+let result = (a < b) && (b > c) || (c === 15);
+
+console.log(result); 
+
+// Create a false logical application
+let x = 5;     
+let y = 10;    
+let z = 15;    
+
+let result = (x > y) || (y <= z) && (z !== 15);
+
+console.log(result); 
